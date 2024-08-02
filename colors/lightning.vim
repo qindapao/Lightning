@@ -44,9 +44,9 @@ if ($TERM =~ '256' || &t_Co >= 256) || has('gui_running')
   hi PmenuSel         ctermbg=195  ctermfg=235  guibg=#d7ffff guifg=#262626 cterm=NONE           gui=NONE
   hi PmenuThumb       ctermbg=66   ctermfg=87   guibg=#5f8787 guifg=#5fffff cterm=NONE           gui=NONE
 
-  hi Cursor           ctermbg=250  ctermfg=NONE guibg=#bcbcbc guifg=NONE    cterm=NONE           gui=NONE
+  hi Cursor           ctermbg=250  ctermfg=NONE guibg=#5fffff guifg=NONE    cterm=NONE           gui=NONE
   hi CursorColumn     ctermbg=254  ctermfg=NONE guibg=#e4e4e4 guifg=NONE    cterm=NONE           gui=NONE
-  hi CursorLine       ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=underline      gui=underline
+  hi CursorLine       ctermbg=NONE ctermfg=NONE guibg=#f2f2f2 guifg=NONE    cterm=NONE           gui=NONE
   hi CursorLineNr     ctermbg=254  ctermfg=73   guibg=#e4e4e4 guifg=#5fafaf cterm=NONE           gui=NONE
 
   hi TabLineSel       ctermbg=153  ctermfg=238  guibg=#afd7ff guifg=#444444 cterm=NONE           gui=NONE
@@ -241,3 +241,4 @@ if $NVIM_TUI_ENABLE_TRUE_COLOR == 1
   let g:terminal_color_7    = "#FAFAFA"
   let g:terminal_color_15   = "#E4E4E4"
 endif
+
